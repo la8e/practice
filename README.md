@@ -1,2 +1,2 @@
 # j-repo
-about java
+Java learning journey
