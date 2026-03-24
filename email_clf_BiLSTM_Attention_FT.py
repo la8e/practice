@@ -55,7 +55,7 @@ train_padded = get_padded_seq(train_data["clean_text"], tokenizer)
 test_padded = get_padded_seq(test_data["clean_text"], tokenizer)
 
 embeddings_index = {}
-embedding_matrix = ge.get_embedding_matrix("fasttext-path-here", tokenizer, vocab_size)
+embedding_matrix = ge.get_embedding_matrix("fasttext-path-here", tokenizer, VOCAB_S)
 
 class Attention(Layer):
 	def __init__(self, **kwargs):
